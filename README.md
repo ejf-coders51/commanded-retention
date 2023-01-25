@@ -16,8 +16,8 @@ init database: `mix do ecto.drop, ecto.create, event_store.create, event_store.i
 
 # Test
 
-Running a shell with: iex -S mix run
-we can run this command: Mix.Task.rerun("retention") that do the following:
+Running a shell with: `iex -S mix run`
+we can run this command: `Mix.Task.rerun("retention")` that do the following:
 * create a counter starting from 1
 * increase up to 10
 * trigger the retention
